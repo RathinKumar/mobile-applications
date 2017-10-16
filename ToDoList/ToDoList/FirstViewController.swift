@@ -41,6 +41,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     
+    //Method to delete items by swiping from right to left
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         
         if editingStyle == UITableViewCellEditingStyle.delete {
